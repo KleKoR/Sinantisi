@@ -1,7 +1,4 @@
-
 img {
-  max-width: 100%;
-  height: auto;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -44,7 +41,7 @@ line-height: 29px;
 
 .logo{
 margin-top: 35px;
-font-size: 50px;
+font-size: 3.5em;
 	font-family: 'GFSGoschen-Italic';
 	text-align: center;
 	line-height: 18px;
@@ -70,10 +67,6 @@ line-height: 25px;
    margin: 25px 5px 32px 20px;
 }
 
-/*///////////////////////////////////TEST\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
-
-
 /* ------------------ PHOTO STYLES ------------------ */
 
 /*Photo Class Must Be Applied to All Images*/
@@ -82,15 +75,13 @@ line-height: 25px;
 	border: 2px solid black;
 	position: relative;
 	float: left;
-	/*responsive*/
-	/*max-width: 100%;*/
 	-ms-interpolation-mode: bicubic;
 	max-width: 100%;
 	height: auto;
 	
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
-	   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
-	        box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
+	-moz-box-shadow: 	0px 1px 3px rgba(0,0,0,0.8);
+	 box-shadow:		0px 1px 3px rgba(0,0,0,0.8);
 }
 
 /*Optional Size Change Just to Show That The Tape Still Works*/
@@ -101,15 +92,9 @@ line-height: 25px;
 .paper {
 	position: relative;
 	float: left;
-	/*responsive*/
-	/*max-width: 100%;*/
 	-ms-interpolation-mode: bicubic;
 	max-width: 100%;
 	height: auto;
-	
-	/*-webkit-box-shadow: 3px 2px 3px rgba(0,0,0,0.4);
-	   -moz-box-shadow: 3px 2px 3px rgba(0,0,0,0.4);
-	     -o-box-shadow: 3px 2px 3px rgba(0,0,0,0.4);*/
 }
 
 .photo.right
@@ -160,7 +145,6 @@ margin-top: -10px;
 	 margin-top: 40px;
 }
 
-
 .row2 .span6
 {
 margin-left: 50px;
@@ -187,8 +171,6 @@ margin-top: -6px;
 {
 margin: 19px;
 }
-
-
 
 #paperText2 .cleartext
 {
@@ -223,17 +205,11 @@ margin: 30px 20px 40px 25px;
 	content: "";
 	height: 30px;
 	width: 140px;
-	/*background: rgba(255,255,255,0.5);*/
-	 background-image:url("../img/tape1S140.png");
-		background-repeat: no-repeat;
+	background-image:url("../img/tape1S140.png");
+	background-repeat: no-repeat;
     background-size: cover;
 	position: absolute;
 	opacity: 0.8;
-	
-	
-	/*-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-	   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-	        box-shadow: 0px 1px 3px rgba(0,0,0,0.4);*/
 }
 
 
@@ -311,15 +287,6 @@ margin: 30px 20px 40px 25px;
 }
 
 /*Center Left Tape*/
-/*.tapesix:before {
-	height: 80px;
-	width: 20px;
-	top: 50%;
-	left: 0%;
-	margin: -40px 0 0 -12px;
-}*/
-
-/*Center Left Tape*/
 .tapesix:before {
 	top: 50%;
 	left: 0%;
@@ -341,42 +308,4 @@ margin: 30px 20px 40px 25px;
 	-moz-transform: rotate(270deg);
 	-o-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
-}
-
-/*Center Left Tape*/
-/*.tapesix:after {
-	height: 80px;
-	width: 20px;
-	top: 50%;
-	left: 100%;
-	margin: -40px 0 0 -8px;
-}*/
-
-
-/* ------------------ BULK thumbtack STYLES ------------------ */
-.thumbtackone:before, .thumbtacktwo:before{
-	content: "";
-	height: 60px;
-	width: 60px;
-	/*background: rgba(255,255,255,0.5);
-	 background-image:url("../img/tape1.png");*/
-		background-repeat: no-repeat;
-    background-size: cover;
-	position: absolute;
-	opacity: 0.8;
-	
-	
-	/*-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-	   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-	        box-shadow: 0px 1px 3px rgba(0,0,0,0.4);*/
-}
-
-
-/* ------------------ INDIVIDUAL THUMBTACK STYLES (PICK ONE AND APPLY IN HTML) ------------------ */
-/*Top Center Tape*/
-.thumbtackone:before, .thumbtacktwo:before {
-	top: 0%;
-	left: 50%;
-	margin: -20px 0 0 -15px;
-	background-image:url("../img/thumbtack.png");
 }
