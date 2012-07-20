@@ -147,14 +147,14 @@ margin-top: -10px;
 
 #paperText2
 {
- background-image:url("../img/paperText7.560.png");
+ background-image:url("../img/paperText7.330.png");
  background-repeat: no-repeat;
     background-size: cover;
 }
 
 #paperText3
 {
- background-image:url("../img/paperText6.736.png");
+ background-image:url("../img/paperText6.360.png");
  background-repeat: no-repeat;
     background-size: cover;
 	 margin-top: 40px;
@@ -251,7 +251,7 @@ margin: 30px 20px 40px 25px;
 	top: 100%;
 	left: 50%;
 	margin: -15px 0 0 -50px;
-	background-image:url("../img/tape2.png");
+	background-image:url("../img/tape3S140.png");
 		-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
