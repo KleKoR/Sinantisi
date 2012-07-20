@@ -57,7 +57,7 @@ float: right;
 }
 
 li {
-margin-top: 15px;
+margin-top: 10px;
 font-size: 24px;
 font-family: 'GFSGoschen-Italic';
 line-height: 25px;
@@ -132,7 +132,7 @@ margin-top: -10px;
 
 #paperText2
 {
- background-image:url("../img/paperText7.330.png");
+ background-image:url("../img/paperText8.330.png");
  background-repeat: no-repeat;
     background-size: cover;
 }
@@ -244,7 +244,7 @@ margin: 30px 20px 40px 25px;
 	-moz-transform: rotate(140deg);
 	-o-transform: rotate(140deg);
 	-ms-transform: rotate(140deg);
-	background-image:url("../img/tape3S140.png");
+	background-image:url("../img/tape5S140.png");
 }
 
 /*Top Right Tape*/
@@ -257,7 +257,7 @@ margin: 30px 20px 40px 25px;
 	-moz-transform: rotate(40deg);
 	-o-transform: rotate(40deg);
 	-ms-transform: rotate(40deg);
-		background-image:url("../img/tape4S140.png");
+		background-image:url("../img/tape3S140.png");
 }
 
 /*Bottom Right Tape*/
@@ -270,7 +270,7 @@ margin: 30px 20px 40px 25px;
 	-moz-transform: rotate(140deg);
 	-o-transform: rotate(140deg);
 	-ms-transform: rotate(140deg);
-		background-image:url("../img/tape5S140.png");
+		background-image:url("../img/tape1S140.png");
 }
 
 /*Bottom Left Tape*/
@@ -279,11 +279,11 @@ margin: 30px 20px 40px 25px;
 	left: 0%;
 	margin: -30px 0 0 -45px;
 	
-	-webkit-transform: rotate(40deg);
-	-moz-transform: rotate(40deg);
-	-o-transform: rotate(40deg);
-	-ms-transform: rotate(40deg);
-		background-image:url("../img/tape6S140.png");
+	-webkit-transform: rotate(220deg);
+	-moz-transform: rotate(220deg);
+	-o-transform: rotate(220deg);
+	-ms-transform: rotate(220deg);
+		background-image:url("../img/tape5S140.png");
 }
 
 /*Center Left Tape*/
