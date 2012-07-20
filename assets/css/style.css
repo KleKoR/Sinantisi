@@ -255,6 +255,7 @@ margin: 30px 20px 40px 25px;
 		-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
 }
 
 /*Top Left Tape*/
@@ -266,6 +267,7 @@ margin: 30px 20px 40px 25px;
 	-webkit-transform: rotate(140deg);
 	-moz-transform: rotate(140deg);
 	-o-transform: rotate(140deg);
+	-ms-transform: rotate(140deg);
 	background-image:url("../img/tape3S140.png");
 }
 
@@ -278,6 +280,7 @@ margin: 30px 20px 40px 25px;
 	-webkit-transform: rotate(40deg);
 	-moz-transform: rotate(40deg);
 	-o-transform: rotate(40deg);
+	-ms-transform: rotate(40deg);
 		background-image:url("../img/tape4S140.png");
 }
 
@@ -290,6 +293,7 @@ margin: 30px 20px 40px 25px;
 	-webkit-transform: rotate(140deg);
 	-moz-transform: rotate(140deg);
 	-o-transform: rotate(140deg);
+	-ms-transform: rotate(140deg);
 		background-image:url("../img/tape5S140.png");
 }
 
@@ -302,6 +306,7 @@ margin: 30px 20px 40px 25px;
 	-webkit-transform: rotate(40deg);
 	-moz-transform: rotate(40deg);
 	-o-transform: rotate(40deg);
+	-ms-transform: rotate(40deg);
 		background-image:url("../img/tape6S140.png");
 }
 
@@ -323,6 +328,7 @@ margin: 30px 20px 40px 25px;
 		-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
 }
 
 /*Center Left Tape*/
@@ -334,6 +340,7 @@ margin: 30px 20px 40px 25px;
 	-webkit-transform: rotate(270deg);
 	-moz-transform: rotate(270deg);
 	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
 }
 
 /*Center Left Tape*/
