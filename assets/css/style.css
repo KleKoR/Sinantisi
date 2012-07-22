@@ -4,15 +4,44 @@ img {
 }
 
 
+
+.navbar .nav > li {
+    margin-top: 0px;
+}
+
+.navbar .nav > li > a {
+    color: #f1daa3;
+}
+
+.navbar .brand {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1;
+    margin-left: 0px;
+	padding: 5px; 10px 0px;
+}
+
+
+
 .eng{
 font-family: 'Arizonia';
 }
 
-.container{
+#contactHeader{
+font-size: 30px;
+text-align: center;
+}
+
+#mainPage{
  background-image:url("../img/paper940F.jpg");
+ margin-top: 40px;
  /*background-repeat: no-repeat;
     background-size: cover;*/
 }
+
 
 body {
     background-color: #f1daa3;
@@ -40,8 +69,19 @@ line-height: 29px;
 }
 
 .logo{
-margin-top: 35px;
+margin-top: 75px;
 font-size: 3.5em;
+	font-family: 'GFSGoschen-Italic';
+	text-align: center;
+	line-height: 18px;
+	
+text-shadow: 1px 3px 2px #000000;
+        filter: dropshadow(color=#000000, offx=1, offy=3);
+}
+
+.areaHeader{
+margin-top: 60px;
+font-size: 4em;
 	font-family: 'GFSGoschen-Italic';
 	text-align: center;
 	line-height: 18px;
@@ -108,20 +148,30 @@ margin-left: -20px;
     margin-right: 20px;
 }
 
+.row
+{
+margin-top: -40px;
+}
+
 .row1
 {
 margin-top: 30px;
+margin-left: 0px;
 }
 
 .row2
 {
-margin-top: -35px;
+margin-left: 0px;
 }
-
+.row4
+{
+margin-left: 20px;
+}
+/*
 .row3
 {
 margin-top: -10px;
-}
+}*/
 
 #paperText1
 {
@@ -151,6 +201,15 @@ margin-left: 50px;
 margin-top: 70px;
 }
 
+.row4 .span6
+{
+margin-left: 50px;
+margin-top: 90px;
+}
+
+.row4 .span6 .paper.tapethree:before, .row4 .span6 .paper.tapefour:before {
+	margin: 15px 0 0 -25px;
+}
 
 .paper.tapeone:before, .paper.tapetwo:before
 {
@@ -167,6 +226,16 @@ margin-left: -62px;
 margin-top: -6px;
 }
 
+
+.row4 .paper.tapefour:after {
+	margin: -45px 0 0 -120px;
+}
+
+p.eng
+{
+margin-top : -5px;
+}
+
 .cleartext
 {
 margin: 19px;
@@ -174,12 +243,12 @@ margin: 19px;
 
 #paperText2 .cleartext
 {
-margin: 30px 20px 40px 25px;
+margin: 30px 18px 75px 25px;
 }
 
 #paperText3 .cleartext
 {
-    margin: 0 10px 0px 25px;
+    margin: 30px 20px 100px 30px;
 }
 
 /* ------------------ CLEAR FIX ------------------ */
@@ -309,3 +378,5 @@ margin: 30px 20px 40px 25px;
 	-o-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
 }
+
+

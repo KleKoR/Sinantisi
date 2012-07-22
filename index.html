@@ -3,19 +3,40 @@
 <head>
    <meta charset="utf-8">
    <title>Η Συνάντηση - Παραδοσιακό Καφενείο</title>
-	<link href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" charset="utf-8" />
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 </head>
 
-<body>
-<div class="container">
-	<div class="row">
-	<div class="span12">
-		<p class="logo"><b>Παραδοσιακό Καφενείο - “Η συνάντηση”</b></P>
-	</div>
+<body data-spy="scroll" data-offset="80" >
+
+ <div class="navbar navbar-fixed-top" >
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+		  <a class="brand" href="#"><b>“Η συνάντηση”</b></a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#Kafeneio"><b>Το Καφενείο</b></a></li>
+              <li><a href="#Katalogos"><b>Κατάλογος</b></a></li>
+              <li><a href="#Contact"><b>Επικοινωνία</b></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+<div class="container" id="mainPage" >
+
+	<div class="row"  >
+	<div class="span12" id="Kafeneio" >
+	<div class="span12" ><p class="logo"><b>Παραδοσιακό Καφενείο - “Η συνάντηση”</b></P></div>
+
 	
-	<div class="span12 row1">
+	<div class="span12 row1"  >
 	<div class="span6">
 		<div class="photo tapefour left" id="photoFrame">
 			<img src="assets/img/synantisi4Vintage1.jpg" width="460" height="306"   id="photo"/>
@@ -33,7 +54,7 @@
 	</div>
 	
 	
-	<div class="span12 row2">
+	<div class="span12 row2" >
 		<div class="span5">
 		<div class="text gre left">
 		<div class="paper tapethree" id="paperText2">
@@ -52,8 +73,10 @@
 	</div>
 	</div>
 	
+		</div>
 	
-	<div class="span12 row3">
+	<div class="span12 row3" id="Katalogos" >
+	<div class="span12" ><p class= "areaHeader"><b>Κατάλογος</b></p></div>
 	<div class="span5">
 		<div class="photo tapetwo left" id="photoFrame">
 			<img src="assets/img/synantisi6Vintage.jpg" width="380" height="571"  id="photo"/>
@@ -64,10 +87,16 @@
 			<div class="paper tapefour" id="paperText3">
 			<div class="cleartext">
 				<ul>
-					  <li>Πιροσκί, γαρίδες, σαλάτες, ξυνό, τοστ γιατρεύουν την πείνα και φτιάχνουν τη διάθεση.</li>
-					  <li>Παίζεις τάβλι με φίλους και απολαμβάνεις τσίπουρο με χειροποίητο παξιμάδι και χταποδάκι, τα καυτά καλοκαιριάτικα απομεσήμερα.</li>
-					  <li>Τα βράδια, η παρέα πίνει ρακόμελα στην πεζούλα ή μπυρίτσα παγωμένη με μεζέδες σπιτικούς.</li>
-					  <li>Κάθε μέρα υπάρχει διαφορετικό, φρεσκοφτιαγμένο γλυκό.</li>
+					  <b><li>Τσίπουρο</b></li>
+					  <b><li>Ούζο</b></li>
+					  <b><li>Κρασί</b></li>
+					  <b><li>Μπύρα</b></li>
+					  <b><li>Ρακόμελο</b></li>
+					  <b><li>Οινοπνευματώδη</b></li>
+					  <b><li>Καφέδες</b></li>
+					  <b><li>Γλυκά ημέρας</b></li>
+					  <b><li>Μεζέδες</b></li>
+					  <b><li>Χειροποίητο σπιτικό παξιμάδι</b></li>
 				</ul>
 		
 		</div>
@@ -77,11 +106,58 @@
 	</div>
 	
 	
+	<div class="span12 row4"id="Contact"  >
+		<div class="span12" ><p class= "areaHeader"><b>Επικοινωνία</b></p></div>
+		<div class="span5">
+		<div class="text gre left">
+		<div class="paper tapethree" id="paperText2">
+			<div class="cleartext">
+		<p id="contactHeader"><b>Χωριό Κιμώλου</b></p>
+		<br>
+		<br>
+		<p><b>Τηλ: 22870 51801</b></p>
+		<p><b>Ωράριο: Καθημερινά από τις 10:00 - όσο πάει</b></p>
+		<p><b>Δωρεάν Ίντερνετ</b></p>
+		<p><b>Πατήστε τον χάρτη στα δεξιά για να μας βρείτε στο</b></p>
+		<p class = "eng"><b>Google Maps</b></p>
+		
+		</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="span6" >
+	<a target="MYMAP" onclick="window.open('','MYMAP','height=485,width=620');return true;" href="map.html">
+		<div class="paper tapefour right map" id="photoFrame"  >
+			<img src="assets/img/kimolosMap460.png" width="460" id="photo" />
+		</div>
+		</a>
+	</div>
+	</div>
+	
 	<a class="fb" target="_blank" href="http://www.facebook.com/groups/470357606309259/">
 <img width="42" height="39" alt="fb" src="assets/img/FacebookIcon1.png">
 </a>
 	
 </div>
 </div>
+
+  <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+
 </body>
 </html>
