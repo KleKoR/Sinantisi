@@ -173,6 +173,11 @@ margin-left: 0px;
 .row4
 {
 margin-left: 20px;
+}
+
+.row5
+{
+margin-left: 20px;
 margin-bottom: 180px;
 }
 /*
@@ -219,6 +224,16 @@ margin-top: 90px;
 	margin: 15px 0 0 -25px;
 }
 
+.row5 .span6
+{
+margin-left: 50px;
+margin-top: 90px;
+}
+
+.row5 .span6 .paper.tapethree:before, .row5 .span6 .paper.tapefour:before {
+	margin: 15px 0 0 -25px;
+}
+
 .paper.tapeone:before, .paper.tapetwo:before
 {
 margin-top: -11px;
@@ -236,6 +251,10 @@ margin-top: -6px;
 
 
 .row4 .paper.tapefour:after {
+	margin: -45px 0 0 -120px;
+}
+
+.row5 .paper.tapefour:after {
 	margin: -45px 0 0 -120px;
 }
 
@@ -262,6 +281,11 @@ margin: 30px 15px 55px 25px;
 #Contact .span12
 {
 margin-bottom: 40px;
+}
+
+#photos 
+{
+margin-top: 40px;
 }
 
 /* ------------------ CLEAR FIX ------------------ */
@@ -393,3 +417,129 @@ margin-bottom: 40px;
 }
 
 
+
+
+
+
+
+
+
+/* line 317, ../sass/screen.sass */
+.imageRow {
+  *zoom: 1;
+  margin: 20px 0;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.imageRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 320, ../sass/screen.sass */
+.imageRow .single {
+  float: left;
+}
+/* line 322, ../sass/screen.sass */
+.imageRow .single a {
+  float: left;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 7px;
+  line-height: 1em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 332, ../sass/screen.sass */
+.imageRow .single a img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* line 335, ../sass/screen.sass */
+.imageRow .single a:hover {
+  background-color: #8ad459;
+}
+/* line 337, ../sass/screen.sass */
+.imageRow .set {
+  float: left;
+  background: #F1DAA3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  margin-left: 35px;
+}
+/* line 343, ../sass/screen.sass */
+.imageRow .set:hover {
+  background: #F1DAA3;
+}
+/* line 346, ../sass/screen.sass */
+.imageRow .set .single a {
+  background: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-right: 0;
+}
+/* line 351, ../sass/screen.sass */
+.imageRow .set .single a:hover {
+  background-color: #8DA9EE;
+  -webkit-box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 355, ../sass/screen.sass */
+.imageRow .set .single.first a {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -ms-border-top-left-radius: 4px;
+  -o-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -ms-border-bottom-left-radius: 4px;
+  -o-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 358, ../sass/screen.sass */
+.imageRow .set .single.last a {
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -ms-border-top-right-radius: 4px;
+  -o-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -ms-border-bottom-right-radius: 4px;
+  -o-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
