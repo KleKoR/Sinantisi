@@ -1,10 +1,64 @@
-<!DOCTYPE html>
-<html lang="el">
-<head>
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-</head>
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Η Συνάντηση - Παραδοσιακό Καφενείο</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map_canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyD6ABtmp8-y2nCx6KvWSPhc77nqHKVx5So&sensor=false"></script>
+    <script>
+      var map;
+      function initialize() {
+	  
+			var myLatlng = new google.maps.LatLng(36.792206, 24.575324);
+			var mapOptions = {
+			  zoom: 15,
+			  center: myLatlng,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
 
-<body>
-<iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=211821677519364016962.0004c56b1bd9f71ef648e&amp;ie=UTF8&amp;t=m&amp;ll=36.793426,24.575429&amp;spn=0.003866,0.006448&amp;z=17&amp;iwloc=0004c56b1f2ebc021bbee&amp;output=embed"></iframe><br /><small>������� <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=211821677519364016962.0004c56b1bd9f71ef648e&amp;ie=UTF8&amp;t=m&amp;ll=36.793426,24.575429&amp;spn=0.003866,0.006448&amp;z=17&amp;iwloc=0004c56b1f2ebc021bbee&amp;source=embed" style="color:#0000FF;text-align:left">����� �����</a> �� ����� ����������� ��������</small>
-</body>
+			var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+			var contentString = '<div id="content">'+
+				'<div id="siteNotice">'+
+				'</div>'+
+				'<h2 id="firstHeading" class="firstHeading">Η Συνάντηση - Παραδοσιακό Καφενείο</h2>'+
+				'<div id="bodyContent">'+
+				'<p><b>Χωριό Κιμώλου</b></p>'+
+				'<p>Τηλ: 22870 51801</p>'+
+				'<p>Ωράριο: Καθημερινά από τις 10:00 - όσο πάει</p>'+
+				'<p>Δωρεάν Ίντερνετ</p>'+
+				'</div>'+
+				'</div>';
+
+			var infowindow = new google.maps.InfoWindow({
+				content: contentString
+			});
+
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title:"Η Συνάντηση (Χωριό Κιμώλου)"
+			});
+
+			google.maps.event.addListener(marker, 'click', function() {
+			  infowindow.open(map,marker);
+			});
+			
+		infowindow.open(map,marker);	
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map_canvas"></div>
+  </body>
 </html>
