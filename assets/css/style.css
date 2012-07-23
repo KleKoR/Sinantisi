@@ -36,12 +36,19 @@ text-align: center;
 }
 
 #mainPage{
- background-image:url("../img/paper940F200K.jpg");
+ background-image:url("../img/back.jpg");
  margin-top: 40px;
  /*background-repeat: no-repeat;
     background-size: cover;*/
 }
 
+#test{
+ background-image:url("../img/backHeader.jpg");
+ margin-top: 40px;
+  margin-left: 0px;
+ /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
 
 body {
     background-color: #f1daa3;
@@ -69,11 +76,11 @@ line-height: 29px;
 }
 
 .logo{
-margin-top: 75px;
+margin-top: 25px;
 font-size: 3.5em;
 	font-family: 'GFSGoschen-Italic';
 	text-align: center;
-	line-height: 18px;
+	line-height: 27px;
 	
 text-shadow: 1px 3px 2px #000000;
         filter: dropshadow(color=#000000, offx=1, offy=3);
