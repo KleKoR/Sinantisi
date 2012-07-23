@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 </head>
 
-<body data-spy="scroll" data-offset="80" >
+<body data-spy="scroll" data-offset="160" >
 
  <div class="navbar navbar-fixed-top" >
       <div class="navbar-inner">
@@ -149,6 +149,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-scrollspy.js"></script>
+	<script src="assets/js/jquery.smooth-scroll.min.js"></script>
+	<script src="assets/js/jquery.ba-bbq.js"></script>
+	<script src="assets/js/lightbox.js"></script>
+
+<script>
+   $(document).ready(function() {
+		$('a[href*="#"]').live('click', function() {
+			if ( this.hash ) {
+				$.bbq.pushState( '#/' + this.hash.slice(1) );
+				return false;
+			}
+		});
+		$(window).bind('hashchange', function(event) {
+			var tgt = location.hash.replace(/^#\/?/,'');
+			if ( document.getElementById(tgt) ) {
+					$.smoothScroll({scrollTarget: '#' + tgt});
+			}
+		});
+		$(window).trigger('hashchange');
+	}); 
+</script>
 
 </body>
 </html>
