@@ -166,6 +166,7 @@ margin-left: 0px;
 .row4
 {
 margin-left: 20px;
+margin-bottom: 180px;
 }
 /*
 .row3
@@ -243,12 +244,17 @@ margin: 19px;
 
 #paperText2 .cleartext
 {
-margin: 30px 18px 75px 25px;
+margin: 30px 15px 55px 25px;
 }
 
 #paperText3 .cleartext
 {
     margin: 30px 20px 100px 30px;
+}
+
+#Contact .span12
+{
+margin-bottom: 40px;
 }
 
 /* ------------------ CLEAR FIX ------------------ */
