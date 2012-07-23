@@ -347,5 +347,8 @@ lightbox = new Lightbox options
     options = new LightboxOptions;
     return lightbox = new Lightbox(options);
   });
-
+ 
+	
+  
 }).call(this);
+
