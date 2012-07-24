@@ -3,7 +3,16 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+@font-face {
+    font-family: 'GFSGoschen-Italic';
+    src: url('../fonts/GFSGoschen-Italic.eot');
+    src: url('../fonts/GFSGoschen-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GFSGoschen-Italic.ttf') format('truetype'),
+         url('../fonts/GFSGoschen-Italic.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 .navbar .nav > li {
     margin-top: 0px;
