@@ -3,6 +3,11 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+
+.fb-like{
+float: right;
+}
+
 @font-face {
     font-family: 'GFSGoschen-Italic';
     src: url('../fonts/GFSGoschen-Italic.eot');
