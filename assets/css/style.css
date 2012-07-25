@@ -249,7 +249,7 @@ margin-top: 90px;
 .row5 .span6
 {
 margin-left: 50px;
-margin-top: 90px;
+margin-top: 60px;
 }
 
 .row5 .span6 .paper.tapethree:before, .row5 .span6 .paper.tapefour:before {
@@ -300,9 +300,15 @@ margin: 30px 15px 55px 25px;
     margin: 30px 20px 100px 30px;
 }
 
+
 #Contact .span12
 {
 margin-bottom: 40px;
+}
+
+#Contact .cleartext
+{
+margin-bottom: 30px;
 }
 
 #photos 
