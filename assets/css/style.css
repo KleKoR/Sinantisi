@@ -122,7 +122,8 @@ text-shadow: 1px 3px 2px #000000;
 
 .fb
 {
-float: right;
+float: left;
+margin-left: 30px;
 }
 
 li {
