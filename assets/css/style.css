@@ -581,3 +581,9 @@ margin-top: 40px;
     margin-top: -12px;
     position: relative;
 }
+
+.connect_widget div.connect_confirmation_cell {
+    margin: 0;
+    padding: 0;
+    margin-top: -6px;
+}
