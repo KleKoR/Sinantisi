@@ -6,7 +6,7 @@ img {
 
 .fb-like{
 float: right;
-margin-top: -280px;
+margin-top: -288px;
 }
 
 @font-face {
@@ -125,7 +125,7 @@ text-shadow: 1px 3px 2px #000000;
 {
 float: left;
 margin-left: 30px;
-margin-top: -289px;
+margin-top: -297px;
 }
 
 li {
@@ -293,9 +293,14 @@ margin-top : -5px;
 margin: 19px;
 }
 
+#paperText1 .cleartext
+{
+margin: 1px 14px 15px;
+}
+
 #paperText2 .cleartext
 {
-margin: 30px 15px 55px 25px;
+margin: 30px 15px 5px 25px;
 }
 
 #paperText3 .cleartext
