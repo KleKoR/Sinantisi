@@ -6,6 +6,7 @@ img {
 
 .fb-like{
 float: right;
+margin-top: -160px;
 }
 
 @font-face {
@@ -124,6 +125,7 @@ text-shadow: 1px 3px 2px #000000;
 {
 float: left;
 margin-left: 30px;
+margin-top: -169px;
 }
 
 li {
