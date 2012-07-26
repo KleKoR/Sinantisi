@@ -17,6 +17,7 @@
 </head>
 
 <body data-spy="scroll" data-offset="160" >
+	<div id="fb-root"></div>
  <div class="navbar navbar-fixed-top" >
       <div class="navbar-inner">
         <div class="container">
@@ -187,6 +188,8 @@
 <img width="42" height="39" alt="fb" src="assets/img/FacebookIcon42.png">
 </a>
 
+<div class="fb-like" data-href="http://www.synantisi.gr" data-send="true" data-layout="button_count" data-width="200" data-show-faces="false"></div>
+
 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.synantisi.gr&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
 
 	
@@ -221,6 +224,14 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+	
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	
 </body>
 
