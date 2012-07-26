@@ -587,3 +587,8 @@ margin-top: 40px;
     padding: 0;
     margin-top: -6px;
 }
+
+.connect_widget .connect_text_wrapper {
+    position: relative;
+	    margin-top: -6px;
+}
