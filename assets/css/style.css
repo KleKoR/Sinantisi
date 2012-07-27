@@ -40,10 +40,8 @@ margin-top: -288px;
     font-weight: 200;
     line-height: 1;
     margin-left: 0px;
-	padding: 5px; 10px 0px;
+	padding: 5px 10px 0px;
 }
-
-
 
 .eng{
 font-family: 'Arizonia';
@@ -99,14 +97,13 @@ line-height: 29px;
 }
 
 .logo{
- margin-top: 5px;
-font-size: 3.5em;
+	margin-top: 5px;
+	font-size: 3.5em;
 	font-family: 'GFSGoschen-Italic';
 	text-align: center;
-	line-height: 80px;
-	
-text-shadow: 1px 3px 2px #000000;
-        filter: dropshadow(color=#000000, offx=1, offy=3);
+	line-height: 80px;	
+	text-shadow: 1px 3px 2px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=3);	
 }
 
 .areaHeader{
@@ -115,9 +112,8 @@ font-size: 4em;
 	font-family: 'GFSGoschen-Italic';
 	text-align: center;
 	line-height: 80px;
-	
-text-shadow: 1px 3px 2px #000000;
-        filter: dropshadow(color=#000000, offx=1, offy=3);
+	text-shadow: 1px 3px 2px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=3);		
 }
 
 
